@@ -72,7 +72,7 @@ nav a:hover {
   width: 100%;
   height: auto;
 }
-h1 {
+.about-heading {
   position: absolute;
   top: 20px;
   width: 100%;
@@ -247,4 +247,8 @@ figure {
   justify-content: center;
   align-items: center;
   margin-left: 20px;
+}
+.heading-title {
+  text-align: center;
+  padding-top: 30px;
 }
