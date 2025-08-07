@@ -191,7 +191,6 @@ textarea {
   font-weight: normal;
 }
 
-
 button {
   display: block;
   margin-top: 20px;
@@ -251,4 +250,147 @@ figure {
 .heading-title {
   text-align: center;
   padding-top: 30px;
+}
+.hero-home {
+  position: relative;
+}
+.hero-home img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.hero-home-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 1.5rem;
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 1rem;
+  text-align: center;
+}
+.newsletter, .cta {
+  padding: 2rem;
+  text-align: center;
+}
+
+.newsletter form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: auto;
+}
+
+.newsletter input {
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+}
+
+.cta-button {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  background-color: #004e66;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 1rem;
+}
+
+.grid-layout {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  padding: 2rem;
+}
+
+.grid-item img {
+  width: 100%;
+  height: auto;
+}
+
+
+
+
+
+
+
+
+
+/* Trips Page Specific Styles */
+.cta-container {
+    background-color: #1a5276;
+    color: white;
+    padding: 2rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.cta-container a {
+    color: #f1c40f;
+    font-weight: bold;
+}
+
+.trip-highlights {
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+}
+
+.trip-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.trip-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.trip-card h3 {
+    padding: 0 1rem;
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.trip-card p {
+    padding: 0 1rem 1rem;
+    text-align: center;
+}
+
+.trip-table {
+    max-width: 1000px;
+    margin: 0 auto 3rem;
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #1a5276;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #e6f7ff;
+}
+
+.featured-trips {
+  text-align: center;
 }
